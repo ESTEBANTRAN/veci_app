@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ElevatedButton(
               onPressed: () {
-                // El estilo del botón se toma del tema
+                // El estilo del botón se toma del temas
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
                     content: Text('Botón presionado!'),
